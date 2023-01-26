@@ -1,0 +1,118 @@
+body{
+    background-image: url("../assets/BackGround.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.name
+{
+    position: fixed;
+    top: 2%;
+    left: 41%;
+    border: 2px solid black;
+    background-color:rgb(167, 233, 237);
+    border-radius: 10px;
+    padding:2%;
+}
+
+.name > button
+{
+    display: block;
+    margin-top: 10%;
+    background-color: red;
+    color: white;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    border-color: red;
+    border-radius: 20%;    
+}
+
+.name > label
+{
+    display: block;
+    color: black;
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 10%;    
+}
+
+.name > input
+{
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    border-color: aquamarine;
+}
+
+.rules{
+
+    position: fixed;
+    top: 35%;
+    left: 41%;
+    border: 2px solid black;
+    background-color:transparent;
+    border-radius: 10px;
+    padding:2%;
+    min-width: 16.7%;
+
+}
+
+.birds
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px ;
+}
+
+.score
+{
+    display: inline-block;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: black;
+
+}
+
+.alert
+{
+    position: fixed;
+    display:none;
+    top: 12%;
+    left: 65%;
+    border: 2px solid black;
+    background-color:Transparent;
+    border-radius: 10px;
+    padding:1%;
+    background-color: red;
+
+
+}
+
+.alert > p
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.lastGame
+{
+    position: fixed;
+    top: 2%;
+    left: 15%;
+    border: 2px solid black;
+    background-color:rgb(167, 233, 237);
+    border-radius: 10px;
+    padding:2%;
+}
+
+.lastGame>p{
+
+    display: block;
+    color: red;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 10%;    
+}

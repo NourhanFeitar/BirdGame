@@ -1,0 +1,162 @@
+body
+{
+    background-image: url("../assets/background.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+
+   
+}
+
+
+
+
+.header
+{
+
+  display: inline-block;
+  border: 5%;
+  border-color: black;
+  color: red;
+  padding-left: 15%;
+  font-weight: 600;
+  font-size:larger;
+  
+
+}
+
+.popup
+{
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    border: 2px solid rgb(0, 0, 0);
+    background-color:rgba(170, 196, 199, 0.473);
+    border-radius: 10px;
+    padding:2%;
+    display: block;
+  
+    
+}
+
+
+
+.popup > button
+{
+    display: block;
+    margin-top: 10%;
+    background-color: red;
+    color: white;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    border-color: red;
+    border-radius: 20%;   
+  
+}
+
+.popup > p 
+{
+  font-size: larger;
+  font-weight: 900;
+  color:rgb(229, 5, 5);
+  text-align: center;
+  
+}
+
+.lose-popup
+{
+  position: fixed;
+    top: 25%;
+    left: 38%;
+    border: 2px solid rgb(0, 0, 0);
+    background-color:rgba(170, 196, 199, 0.473);
+    border-radius: 10px;
+    padding:2%;
+    display: none;
+    width: 20%;
+    z-index: 10;
+    
+}
+
+.lose-popup>button
+{
+    display: block;
+    margin-top: 10%;
+    background-color: red;
+    color: white;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    border-color: red;
+    border-radius: 20%; 
+}
+
+.lose-popup>p
+{
+  font-size: larger;
+  font-weight: 900;
+  color:rgb(229, 5, 5);
+  text-align: center;
+  
+}
+
+.lose-popup>img
+{
+  width: 60px;
+  align-items: center;
+}
+
+.birdContainer
+{
+  display: block;
+  position: fixed;
+}
+
+.bird
+{
+  height: 150px;
+  width: 150px;
+}
+
+.Ending
+{
+    position: fixed;
+    top: 20%;
+    left: 41%;
+    border: 2px solid rgb(0, 0, 0);
+    background-color:rgba(170, 196, 199, 0.473);
+    border-radius: 10px;
+    padding:2%;
+    display: none;
+    z-index: 10;
+
+}
+
+.Ending > p
+{
+  font-size: larger;
+  font-weight: 900;
+  color:rgb(229, 5, 5);
+}
+
+.Ending>button
+{
+  
+  display: block;
+  margin-top: 10%;
+  background-color: red;
+  color: white;
+  font-size: medium;
+  font-family:Arial, Helvetica, sans-serif;
+  border-color: red;
+  border-radius: 20%;
+  align-self: center;
+}
+
+.bomb {
+  position: fixed;
+  
+}
+
+.bomb > img {
+  height: 150px;
+  width: 150px;
+}

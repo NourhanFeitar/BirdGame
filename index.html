@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting Birds</title>
+    <link rel="stylesheet" href="./styles/IndexStyle.css">
+</head>
+<body>
+  <center> 
+    <div class="name">
+        <label for="playerName">Please Enter Your Name</label>
+        <input type="text" name="playerName" placeholder="Enter Name Here">
+        <button > READY!</button>       
+    </div>
+    <div class="rules">
+        <div> 
+            <img src="./assets/blackBird.gif" class="birds" >
+            <p class="score" style="color: blue;">+10 Points </p>
+        </div>
+
+        <div>
+             <img src="./assets/whiteBird.gif" class="birds" >
+             <p class="score" style="color: green;">+5 Points</p>
+        </div>
+
+        <div>
+            <img src="./assets/blueBird.gif" class="birds" >
+             <p class="score" style="color: red;">-10 Points</p>
+        </div>
+    </div>
+
+    <div class="lastGame" >
+        <p>Your Last Game Was On <span class="lastDate"> </span></p>
+        <p> Player Name Was <span class="lastplayer"> </span></p>
+        <p>Score Was <span class="lastScore"> </span></p>
+    </div>
+    
+    <div class="alert">
+        <p> Please Enter A Valid Name</p>
+    </div>
+  </center>
+  <script>
+    document.querySelector(".lastDate").innerHTML=localStorage.getItem("date")
+    document.querySelector(".lastplayer").innerHTML=localStorage.getItem("playerName")
+    document.querySelector(".lastScore").innerHTML=localStorage.getItem("score")
+
+  </script>
+
+  <script src="IndexJS.js"></script>
+</body>
+</html>
